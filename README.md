@@ -14,7 +14,9 @@ Build your training and test set from the dataset, here we are making the neural
 
 ## Neural Network Model
 
-![image](https://github.com/anithapalani2123/basic-nn-model/assets/94184990/d2c2d984-d1d7-4e14-b3f8-1dc2c31413fe)
+
+![image](https://github.com/anithapalani2123/basic-nn-model/assets/94184990/ccc9e02d-c2a8-4425-bfff-ea12b49224c0)
+
 
 
 ## DESIGN STEPS
@@ -85,8 +87,8 @@ X_train1 = Scaler.transform(X_train)
 X_train1
 
 ai=Sequential([
-    Dense(7,activation='relu'),
-    Dense(14,activation='relu'),
+    Dense(21,activation='relu'),
+    Dense(23,activation='relu'),
     Dense(1)
 ])
 ai.compile(optimizer='rmsprop',loss='mse')
